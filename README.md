@@ -19,6 +19,10 @@ Here's what it doesn't:
 ## QUICK START GUIDE™
 Download cashgigs from [Releases](https://github.com/jade-doggerel/cashgigs/releases).  
 ### Before you start
+> [!CAUTION]
+> Windows Defender sometimes flags the cashgigs executable, and [VirusTotal](https://www.virustotal.com/gui/file/342213627261d7817fb61fc6b30ac14fb217bca290276bcbfcd99c902be6c50d?nocache=1) has reported false positives as well. This could be because it manipulates the .ini file in the directory it is in. Making a macro recorder involves logging and saving keypresses, so I guess if you squint, it kinda looks like a keylogger.  
+> If you're in doubt, check out the code in the repo here - it's pretty simple and there's not much to go through.
+
 cashgigs works with both keyboards and mice, but it can't discern between the two. As such, if you're using this with an MMO mouse like me, I advise using the software that came with your mouse to map the thumb buttons to keys that don't get pressed in normal use - mine are mapped to `F13` - `F24`, which don't exist on most keyboards.  
 Most mice I have used have an "on-board memory profile" - save your keys in there and then uninstall the proprietary software.
 ### To remap a key:
